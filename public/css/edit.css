@@ -1,0 +1,42 @@
+form{
+    width:400pt;
+}
+.edit-box {
+    position: absolute;
+    display: block;
+    left: 40%;
+    width: 300pt;
+    padding: 18pt;
+    margin-top: 18pt;
+    background: #18181B;
+    box-sizing: border-box;
+    box-shadow: 0 10pt 18pt rgba(0,0,0,.6);
+    border-radius: 10pt;
+  }
+  
+  .edit-box .input-box {
+    position: relative;
+  }
+  
+  .edit-box .input-box input {
+    width: 60%;
+    padding: 7pt 0;
+    font-size: 13pt;
+    color: #FFF7ED;
+    margin-bottom: 20pt;
+    border: none;
+    border-bottom: 1pt solid #FFF7ED;
+    outline: none;
+    background: transparent;
+  }
+  
+  .edit-box .input-box label {
+    display: block;
+    color: #FFF7ED;
+    font-size: 16pt;
+  }
+   
+  .logout{
+    display: flex;
+    justify-content: center;
+  }

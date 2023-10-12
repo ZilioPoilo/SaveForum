@@ -1,0 +1,8 @@
+key 1
+FL8qKMT5LWZJga1RG9c05/ZfVZZzO+7PIwxzfvrA5aQlI4D6xfgiEyDGx4eRCjO24yiLE4OI0ygB+AStz2YAyg==
+connection string 1
+DefaultEndpointsProtocol=https;AccountName=gundata;AccountKey=FL8qKMT5LWZJga1RG9c05/ZfVZZzO+7PIwxzfvrA5aQlI4D6xfgiEyDGx4eRCjO24yiLE4OI0ygB+AStz2YAyg==;EndpointSuffix=core.windows.net
+key 2
+NltEXzLrEpk5YpGtvZgthseq8Wb9/sJBBtvELpUJgfeIdTNu93u6O/r27znDmr2d5mycCyy1m8JB+AStF17nxg==
+connection string 2
+DefaultEndpointsProtocol=https;AccountName=gundata;AccountKey=NltEXzLrEpk5YpGtvZgthseq8Wb9/sJBBtvELpUJgfeIdTNu93u6O/r27znDmr2d5mycCyy1m8JB+AStF17nxg==;EndpointSuffix=core.windows.net

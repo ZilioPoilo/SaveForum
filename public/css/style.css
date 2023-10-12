@@ -1,0 +1,55 @@
+.dark{
+    background: #18181B;
+}
+.darktext{
+    color: #18181B;
+}
+.orange{
+    background: #ff531a;
+}
+.orangetext{
+    color: #ff531a;
+}
+.whitetext{
+    color: #FFF7ED;
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 23pt;
+}
+.link {
+    margin-right: 2pt;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    padding: .7em 1em;
+    color: #ff531a;
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s ease;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ff531a;
+    transition: .3s ease;
+}
+
+.link:hover {
+    color: #ff531a;
+    transition-delay: .1s;
+}
+
+.link:hover::before {
+    width: 100%;
+}
+

@@ -1,0 +1,35 @@
+.cards{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  .savecard{
+    display: inline-block;
+    border: 2pt solid #ff531a;
+    height: 100pt;
+    width: 95%;
+    margin: 5pt;
+    max-height: 400pt;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    max-height: 300pt;
+  }
+  
+  .description{
+    width: 98%;
+    height: 90pt;
+    margin: 3pt;
+    resize: none;
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+  }
+  
+  .download{
+    margin: auto;
+    width: 100%;
+  }

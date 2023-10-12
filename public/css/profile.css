@@ -1,0 +1,36 @@
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.pages {
+  color: #ff531a;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+a:hover{
+  color: #ff531a;
+}
+
+.pages::before {
+  margin-left: auto;
+}
+  
+.pages::after, .pages::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ff531a;
+  display: block;
+  transition: 0.5s;
+}
+  
+.pages:hover::after, .pages:hover::before {
+  width: 100%;
+}
+
+
+
+

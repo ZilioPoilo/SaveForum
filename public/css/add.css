@@ -1,0 +1,71 @@
+form{
+    width:900pt;
+}
+
+.login {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 300pt;
+  padding: 25pt;
+  transform: translate(-50%, -50%);
+  background: #18181B;
+  box-sizing: border-box;
+  box-shadow: 0 10pt 18pt rgba(0,0,0,.6);
+  border-radius: 10pt;
+}
+
+.login-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 600pt;
+    padding: 25pt;
+    transform: translate(-50%, -50%);
+    background: #18181B;
+    box-sizing: border-box;
+    box-shadow: 0 10pt 18pt rgba(0,0,0,.6);
+    border-radius: 10pt;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input, textarea {
+    width: 60%;
+    padding: 10pt 0;
+    font-size: 13pt;
+    color: #FFF7ED;
+    margin-bottom: 30pt;
+    border: none;
+    border-bottom: 1pt solid #FFF7ED;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10pt 0;
+    font-size: 13pt;
+    color: #FFF7ED;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20pt;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 10pt;
+  }
+  .login-box .user-box textarea:focus ~ label,
+  .login-box .user-box textarea:valid ~ label {
+    top: -20pt;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 10pt;
+  }
